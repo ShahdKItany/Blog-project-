@@ -3,8 +3,9 @@
 import { Sequelize } from 'sequelize';
 
 
-export const sequelize = new Sequelize('blogproject', 'root', '', {
-    host: 'localhost',
+export const sequelize = new Sequelize('freedb_bolgProject', 'freedb_shahd', 'zq@bn!AxFS3f7@D', {
+    host: 'sql.freedb.tech',
+    port:3306,
     dialect:'mysql' /* one of 'mysql' | 'postgres' | 'sqlite' | 'mariadb' | 'mssql' | 'db2' | 'snowflake' | 'oracle' */
   });
 
